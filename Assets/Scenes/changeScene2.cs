@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class changeScene : MonoBehaviour
+public class changeScene2 : MonoBehaviour
 {
     private void Start()
     {
@@ -12,8 +12,9 @@ public class changeScene : MonoBehaviour
     // Update is called once per frame
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("HeavenScene");
+        SceneManager.LoadScene("Scene_Kang");
     }
 }
+
 
 
