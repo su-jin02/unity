@@ -5,14 +5,14 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ie2_c : MonoBehaviour
 {
-    Shader myShader;      
+    Shader myShader;       
     Material myMaterial;
 
     public float depth = 1f;
 
     void Start()
     {
-        myShader = Shader.Find("shader/eval/ie2");   
+        myShader = Shader.Find("shader/eval/ie2");  
         myMaterial = new Material(myShader);
     }
 

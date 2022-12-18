@@ -8,8 +8,7 @@ public class ie3_c : MonoBehaviour
     Shader myShader;        
     Material myMaterial;
 
-    public Texture2D BlendTexture;
-    public float blendOpacity = 1.0f;
+    public float grayScaleAmount = 1.0f;
 
     void Start()
     {
@@ -19,7 +18,7 @@ public class ie3_c : MonoBehaviour
 
     private void Update()
     {
-        blendOpacity = Mathf.Clamp(blendOpacity, 0.0f, 1.0f);
+        grayScaleAmount = Mathf.Clamp(grayScaleAmount, 0.0f, 1.0f);
     }
 
     private void OnDisable()
@@ -32,8 +31,7 @@ public class ie3_c : MonoBehaviour
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        myMaterial.SetTexture("_BlendTex", BlendTexture);
-        myMaterial.SetFloat("_Opacity", blendOpacity);
+        myMaterial.SetFloat("_GrayScaleAmount", grayScaleAmount);
         Graphics.Blit(source, destination, myMaterial);
     }
 }
