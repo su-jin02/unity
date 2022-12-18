@@ -3,12 +3,10 @@ Shader "shader/eval/ie3"
     Properties
     {
         _MainTex("Texture", 2D) = "white" {}
-        _BlendTex("Blend Texture", 2D) = "white" {}
-        _Opacity("Opacity", Range(0, 1)) = 1
+        _GrayScaleAmount("GrayScaleAmount", Range(0, 1)) = 1.0
     }
         SubShader
         {
-            // No culling or depth
             Cull Off ZWrite Off ZTest Always
 
             Pass
@@ -40,26 +38,17 @@ Shader "shader/eval/ie3"
                 }
 
                 sampler2D _MainTex;
-                sampler2D _BlendTex;
-                float _Opacity;
+                float _GrayScaleAmount;
 
                 fixed4 frag(v2f i) : SV_Target
                 {
                     fixed4 col = tex2D(_MainTex, i.uv);
-                    fixed4 blendTex = tex2D(_BlendTex, i.uv);
 
-                    /*
-                    fixed4 blendedMultiply = col * blendTex;
-                    col = lerp (col, blendedMultiply, _Opacity);
-                    */
+                    float grayness = 0.333 * col.r + 0.333 * col.g + 0.333 * col.b;
 
-                    /*
-                    fixed4 blendedAdd = col + blendTex;
-                    col = lerp (col, blendedAdd, _Opacity);
-                    */
+                    fixed4 finalColor = lerp(col, grayness, _GrayScaleAmount);
 
-                    fixed4 blendedScreen = (1.0 - ((1.0 - col) * (1.0 - blendTex)));
-                    col = lerp(col, blendedScreen, _Opacity);
+                    col.rgb = finalColor;
 
                     return col;
                 }

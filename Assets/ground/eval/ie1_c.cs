@@ -11,13 +11,8 @@ public class ie1_c : MonoBehaviour
 
     void Start()
     {
-        myShader = Shader.Find("shader/eval/ie1");
+        myShader = Shader.Find("shader/eval/ie1");  
         myMaterial = new Material(myShader);
-    }
-
-    private void OnRenderImage(RenderTexture source, RenderTexture destination)
-    {
-        Graphics.Blit(source, destination, myMaterial, 0);
     }
 
     private void OnDisable()
@@ -28,4 +23,9 @@ public class ie1_c : MonoBehaviour
         }
     }
 
+
+    private void OnRenderImage(RenderTexture source, RenderTexture destination)
+    {
+        Graphics.Blit(source, destination, myMaterial, 0);
+    }
 }

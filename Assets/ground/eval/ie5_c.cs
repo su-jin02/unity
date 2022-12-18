@@ -7,13 +7,18 @@ public class ie5_c : MonoBehaviour
     Shader myShader;       
     Material myMaterial;
 
-    public bool InvertEffect;
-    public bool DepthEffect;
+    public Texture2D BlendTexture;
+    public float blendOpacity = 1.0f;
 
     void Start()
     {
-        myShader = Shader.Find("shader/eval/ie5");    
+        myShader = Shader.Find("shader/eval/ie5");  
         myMaterial = new Material(myShader);
+    }
+
+    private void Update()
+    {
+        blendOpacity = Mathf.Clamp(blendOpacity, 0.0f, 1.0f);
     }
 
     private void OnDisable()
@@ -24,20 +29,10 @@ public class ie5_c : MonoBehaviour
         }
     }
 
-
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        if (InvertEffect)
-        {
-            Graphics.Blit(source, destination, myMaterial, 0);
-        }
-        else if (DepthEffect)
-        {
-            Graphics.Blit(source, destination, myMaterial, 1);
-        }
-        else
-        {
-            Graphics.Blit(source, destination);
-        }
+        myMaterial.SetTexture("_BlendTex", BlendTexture);
+        myMaterial.SetFloat("_Opacity", blendOpacity);
+        Graphics.Blit(source, destination, myMaterial);
     }
 }
