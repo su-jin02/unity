@@ -507,6 +507,434 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &792555220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1809576016017498, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Name
+      value: AngelofthehellLabel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809576016017498, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 503.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 924.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673851219687250, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65892789019475662, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65892789019475662, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65892789019475662, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114371209217144350, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: distance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114371209217144350, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: lookAtActivator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_text
+      value: 'Angel of the hell is on the boat
+
+        he guide the load of hell
+
+        -
+        if player get close to the angel of the hell audio start
+
+
+        Sujin
+        Jeon
+
+        -audio'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSize
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114591927686108806, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 336
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_text
+      value: Angel of the Hell
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714344651657804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_text
+      value: Angel of the Hell
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSize
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114786466634288168, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813153319558658, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813153319558658, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813153319558658, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_text
+      value: Press [U] For more info
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSize
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114907831707744730, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114964262056588372, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224076058441789776, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 224076058441789776, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.377
+      objectReference: {fileID: 0}
+    - target: {fileID: 224076058441789776, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 224081852349283804, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224150233095903430, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181521718043376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181521718043376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181521718043376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224867672713526594, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 224867672713526594, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.398
+      objectReference: {fileID: 0}
+    - target: {fileID: 224867672713526594, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2632
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004272461
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -17.999878
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946900015293376, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
 --- !u!1001 &893290547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1195,7 +1623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1809576016017498, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
       propertyPath: m_Name
-      value: VenusLabel
+      value: UndergroundLabel
       objectReference: {fileID: 0}
     - target: {fileID: 1809576016017498, guid: ee8ad5531e02f4f0eb2d4187ec62c699, type: 3}
       propertyPath: m_IsActive
