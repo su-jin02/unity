@@ -53,4 +53,5 @@ public class HYS_dice2 : MonoBehaviour
         DefaultMaterial.mainTexture = Dice;
         gameObject.GetComponent<Renderer>().material = DefaultMaterial;
     }
+
 }
