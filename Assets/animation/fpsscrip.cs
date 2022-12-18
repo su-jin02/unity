@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class boatscript : MonoBehaviour
+public class fpsscrip : MonoBehaviour
 {
     Animator Anim;
     void Start()
@@ -38,5 +38,4 @@ public class boatscript : MonoBehaviour
             Anim.SetFloat("Dir", 0f);
         }
     }
-
 }
