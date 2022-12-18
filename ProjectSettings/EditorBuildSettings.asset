@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HeavenScene.unity
     guid: 31ca9ee0f98d13a478b6e364617728b4
   - enabled: 1
-    path: Assets/Scenes/ground_save1.unity
-    guid: 5109e5d9f6703184097d682353066235
+    path: Assets/Scenes/ground_scene.unity
+    guid: 4a5e967793e863e46b2a4307446a820a
   - enabled: 1
     path: Assets/Scenes/Scene_Kang.unity
-    guid: 9ed5a86884830264eb0fdbcf9960b9b3
+    guid: db1fc51127ffc514b9502fd0633d64cd
   m_configObjects: {}
