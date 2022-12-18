@@ -44,15 +44,15 @@ Shader "shader/eval/ie2"
 
 			fixed4 frag(v2f i) : SV_Target
 			{
-				// Test01
-				fixed depth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv));
-				fixed4 col = fixed4(depth, depth, depth, 1.0) * _Depth;
-				return col;
+				//// Test01
+				//fixed depth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv));
+				//fixed4 col = fixed4(depth, depth, depth, 1.0) * _Depth;
+				//return col;
 
 				// Test02
-				//fixed depth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv));
-				//depth = pow(Linear01Depth(depth), _Depth); //https://docs.unity3d.com/kr/2020.1/Manual/SL-DepthTextures.html
-				//return depth;
+				fixed depth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv));
+				depth = pow(Linear01Depth(depth), _Depth); //https://docs.unity3d.com/kr/2020.1/Manual/SL-DepthTextures.html
+				return depth;
 
 				// Test03
 				//fixed depth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv));
